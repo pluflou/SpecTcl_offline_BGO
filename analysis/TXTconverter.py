@@ -37,27 +37,14 @@ def unpack_spectra(filename, key, size):
             
     return counts_array
 
-def txt2spe(spec_data, spec_name, runnum): 
+def array2file(spec_data, spec_name, runnum): 
     
-    '''Function to write spectra arrays into .spe format'''
-
-    speclen= len(spec_data) - 1
-            
-    string=     ( "$SPEC_ID:          \n"
-                  f"Description: {runnum} {spec_name}\n"
-                  "$MEAS_TIM:         \n"
-                  "666 666            \n"
-                  "$DATE_MEA:         \n"
-                  "01/01/2019 12:00:00.0\n"
-                  "$DATA:             \n"
-                  f"0 {speclen}        \n"
-                  )
-    
+    '''Function to write spectra arrays into txt format'''      
     
     if not os.path.exists(f"./{runnum}/"):
         os.makedirs(f"./{runnum}/")
-    f= open(f"./{runnum}/{runnum}_{spec_name}.spe", "w")
-    f.write(string)
+    f= open(f"./{runnum}/{runnum}_{spec_name}.txt", "w")
+    #f.write(string)
     
     for num in spec_data:
         print("%i" %(num), file=f)
@@ -70,4 +57,4 @@ def import_spectra(filename, run_number, array, size):
         
     for i in array:  
         array[i]= unpack_spectra(filename, i, size)
-        txt2spe(array[i], i, run_number)
+        array2file(array[i], i, run_number)

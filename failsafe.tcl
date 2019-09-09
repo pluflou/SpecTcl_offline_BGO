@@ -1,4 +1,4 @@
-#  SpecTclGUI save file created Fri Aug 30 18:34:06 EDT 2019
+#  SpecTclGUI save file created Fri Sep 06 15:56:14 EDT 2019
 #  SpecTclGui Version: 1.0
 #      Author: Ron Fox (fox@nscl.msu.edu)
 
@@ -3812,33 +3812,33 @@ treeparameter -setunit   BGOarray.timelow.32 unknown
 # Spectrum Definitions
 
 catch {spectrum -delete BGO_ModID00_ChID00}
-spectrum BGO_ModID00_ChID00 1 BGOarray.raw.chanid000.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID00 1 BGOarray.raw.chanid000.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID01}
-spectrum BGO_ModID00_ChID01 1 BGOarray.raw.chanid001.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID01 1 BGOarray.raw.chanid001.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID02}
-spectrum BGO_ModID00_ChID02 1 BGOarray.raw.chanid002.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID02 1 BGOarray.raw.chanid002.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID03}
-spectrum BGO_ModID00_ChID03 1 BGOarray.raw.chanid003.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID03 1 BGOarray.raw.chanid003.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID04}
-spectrum BGO_ModID00_ChID04 1 BGOarray.raw.chanid004.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID04 1 BGOarray.raw.chanid004.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID05}
-spectrum BGO_ModID00_ChID05 1 BGOarray.raw.chanid005.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID05 1 BGOarray.raw.chanid005.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID06}
-spectrum BGO_ModID00_ChID06 1 BGOarray.raw.chanid006.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID06 1 BGOarray.raw.chanid006.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID07}
-spectrum BGO_ModID00_ChID07 1 BGOarray.raw.chanid007.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID07 1 BGOarray.raw.chanid007.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID08}
-spectrum BGO_ModID00_ChID08 1 BGOarray.raw.chanid008.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID08 1 BGOarray.raw.chanid008.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID09}
-spectrum BGO_ModID00_ChID09 1 BGOarray.raw.chanid009.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID09 1 BGOarray.raw.chanid009.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID10}
-spectrum BGO_ModID00_ChID10 1 BGOarray.raw.chanid010.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID10 1 BGOarray.raw.chanid010.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID11}
-spectrum BGO_ModID00_ChID11 1 BGOarray.raw.chanid011.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID11 1 BGOarray.raw.chanid011.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID12}
-spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 65536.000000 65536}} long
 catch {spectrum -delete BGO_ModID00_ChID13}
-spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 65536.000000 65536}} long
 
 # Gate Applications: 
 

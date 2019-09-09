@@ -3809,20 +3809,20 @@ treeparameter -setunit   BGOarray.timelow.32 unknown
 
 # Spectrum Definitions
 
-spectrum BGO_ModID00_ChID00 1 BGOarray.raw.chanid000.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID01 1 BGOarray.raw.chanid001.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID02 1 BGOarray.raw.chanid002.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID03 1 BGOarray.raw.chanid003.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID04 1 BGOarray.raw.chanid004.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID05 1 BGOarray.raw.chanid005.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID06 1 BGOarray.raw.chanid006.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID07 1 BGOarray.raw.chanid007.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID08 1 BGOarray.raw.chanid008.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID09 1 BGOarray.raw.chanid009.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID10 1 BGOarray.raw.chanid010.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID11 1 BGOarray.raw.chanid011.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 65536.00 65536}} long
-spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 65536.00 65536}} long
+spectrum BGO_ModID00_ChID00 1 BGOarray.raw.chanid000.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID01 1 BGOarray.raw.chanid001.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID02 1 BGOarray.raw.chanid002.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID03 1 BGOarray.raw.chanid003.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID04 1 BGOarray.raw.chanid004.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID05 1 BGOarray.raw.chanid005.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID06 1 BGOarray.raw.chanid006.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID07 1 BGOarray.raw.chanid007.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID08 1 BGOarray.raw.chanid008.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID09 1 BGOarray.raw.chanid009.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID10 1 BGOarray.raw.chanid010.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID11 1 BGOarray.raw.chanid011.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID12 1 BGOarray.raw.chanid012.adc {{0.000000 33000.000000 11000}} long
+spectrum BGO_ModID00_ChID13 1 BGOarray.raw.chanid013.adc {{0.000000 33000.000000 11000}} long
 
 # Gate Applications: 
 
